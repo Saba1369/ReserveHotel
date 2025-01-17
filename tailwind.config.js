@@ -2,22 +2,25 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,html,css}"],
   theme: {
-    extend: {},
+    extend: { screens: { xs: "320px" 
+      , xl: "1024px"
+    } },
   },
   plugins: [
     function ({ addVariant, e }) {
-      addVariant('cluster-hover', ({ modifySelectors, separator }) => {
+      addVariant("cluster-hover", ({ modifySelectors, separator }) => {
         modifySelectors(({ className }) => {
-          return `.cluster:hover .${e(`cluster-hover${separator}${className}`)}`;
+          return `.cluster:hover .${e(
+            `cluster-hover${separator}${className}`
+          )}`;
         });
       });
 
-      addVariant('group-hover', ({ modifySelectors, separator }) => {
+      addVariant("group-hover", ({ modifySelectors, separator }) => {
         modifySelectors(({ className }) => {
           return `.group:hover .${e(`group-hover${separator}${className}`)}`;
         });
       });
     },
   ],
-}
-
+};

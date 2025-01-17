@@ -5,7 +5,7 @@ import SearchHotelForm from "../components/search-hotel-form";
 
 const Home = () => {
   return (
-    <div className="flex flex-col justify-start gap-[70px] h-[300vh]">
+    <div className="flex flex-col justify-start gap-[70px] h-[300vh] w-screen">
       <Slide/>
       <SearchHotelForm/>
       <HomePart3/>

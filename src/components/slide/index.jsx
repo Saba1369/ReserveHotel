@@ -24,7 +24,7 @@ const Slide = () => {
   }, []);
   
   return (
-    <div className="overflow-y-hidden h-[570px]">
+    <div className="overflow-y-hidden h-[570px] ">
     {loading  || !responseData ? (<Loading/>) : ( <div className="slide-container">
       <Fade>
         {responseData?.map((fadeImage, index) => (

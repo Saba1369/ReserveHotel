@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUS = () => {
     return(
-        <div className="text-lg p-4">
+        <div className="text-lg p-4 w-[screen]">
            <h1 className="pb-2 font-semibold"> About US</h1>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minus perspiciatis pariatur saepe omnis dolore quam optio ex eum quis fuga animi, aliquam inventore veniam praesentium adipisci, unde libero suscipit!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt praesentium in commodi? Unde excepturi ea vitae, iure sequi reiciendis ratione ipsa laborum ipsam laboriosam, ab deserunt inventore impedit omnis optio!
