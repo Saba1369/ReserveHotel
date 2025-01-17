@@ -1,0 +1,9 @@
+export const HOME_ROUTE = '/';
+export const LOGIN_ROUTE = '/login';
+export const HOTELS_ROUTE = '/hotels';
+export const ABOUT_ROUTE = '/aboutUs';
+export const PROFILE_ROUTE = '/profile';
+export const SHOPPING_CART_ROUTE = '/shoppingCart';
+export const HOTEL_ROUTE = '/hotel/:HotelId';
+export const HOTEL_RAW_ROUTE = '/hotel';
+export const OK_ROUTE = '/ok';

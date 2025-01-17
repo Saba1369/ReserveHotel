@@ -1,0 +1,25 @@
+.nav{
+    margin:0 20px;
+}
+
+@keyframes load {
+    from {
+        height: 35px; 
+    }
+    20%{
+        height: 35px;
+        border-color:#a6d5d6 ;
+    }
+    80%{
+        height: 13px;
+        border-color:#44898a ;
+    }
+    to {
+        height: 13px;
+        border-color:#042627 ;
+    }
+  }
+
+  .footer{
+    background-image: url(./assets/images/footer.jpg);
+  }

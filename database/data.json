@@ -1,0 +1,22 @@
+{
+  "slides": [
+    {
+     "HotelId": "1",
+      "url": "pic1.jpg",
+      "title": "Bora Hotel",
+      "caption": "Reserve Room for Family Vacation"
+    },
+    {
+      "HotelId": "9",
+      "url": "pic2.jpg",
+      "title": "Deluxe Hotel",
+      "caption": "Make Your Vacation Comfortable"
+    },
+    {
+     "HotelId": "10",
+      "url": "pic3.jpg",
+      "title": "Luxe Hotel",
+      "caption": "A Best Place To Enjoy Your Life"
+    }
+  ]
+}
